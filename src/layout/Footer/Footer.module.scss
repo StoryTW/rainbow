@@ -7,13 +7,27 @@
   padding: 0px 128px;
   width: 100%;
   margin: 0 auto;
+
+  @include respond(tabletL) {
+    padding: 0px 64px;
+  }
+
+  @include respond(mobileL) {
+    padding: 0px 48px;
+  }
 }
 
 .content {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 12px;
   padding: 24px 0px;
+  flex-wrap: wrap;
+
+  @include respond(mobileL) {
+    padding: 18px 0px;
+  }
 }
 
 .btn {
