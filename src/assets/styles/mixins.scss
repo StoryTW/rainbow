@@ -134,9 +134,31 @@
   line-height: 135%;
 }
 
+@mixin CreatoDisplay_24_500 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135%;
+}
+
 @mixin CreatoDisplay_32_900 {
   font-size: 32px;
   font-style: normal;
   font-weight: 900;
+  line-height: 135%;
+}
+
+@mixin CreatoDisplay_48_900 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 135%;
+}
+
+
+@mixin CreatoDisplay_48_700 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
   line-height: 135%;
 }
