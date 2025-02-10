@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import '@/assets/styles/index.scss';
-import { Header } from './layout/Header/Header';
-import { Footer } from './layout/Footer/Footer';
+import { Header } from '@/layout/Header/Header';
+import { Footer } from '@/layout/Footer/Footer';
 
 const creatoDisplay = localFont({
   src: [
