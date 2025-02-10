@@ -1,6 +1,8 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
+import type { Metadata } from 'next';
+import localFont from 'next/font/local';
+import '@/assets/styles/index.scss';
+import { Header } from './layout/Header/Header';
+import { Footer } from './layout/Footer/Footer';
 
 const creatoDisplay = localFont({
   src: [
@@ -35,11 +37,11 @@ const creatoDisplay = localFont({
       style: 'italic',
     },
   ],
-})
+});
 
 export const metadata: Metadata = {
-  title: "Zorg Nation",
-  description: "Zorg Nation",
+  title: 'Zorg Nation',
+  description: 'Zorg Nation',
 };
 
 export default function RootLayout({
@@ -48,9 +50,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body className={creatoDisplay.className}>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
