@@ -3,6 +3,7 @@ import localFont from 'next/font/local';
 import '@/assets/styles/index.scss';
 import { Header } from '@/layout/Header/Header';
 import { Footer } from '@/layout/Footer/Footer';
+import FaviconPng from '/public/favicon.png';
 
 const creatoDisplay = localFont({
   src: [
@@ -42,6 +43,10 @@ const creatoDisplay = localFont({
 export const metadata: Metadata = {
   title: 'Zorg Nation',
   description: 'Zorg Nation',
+  icons: {
+    icon: FaviconPng.src,
+    apple: FaviconPng.src,
+  },
 };
 
 export default function RootLayout({

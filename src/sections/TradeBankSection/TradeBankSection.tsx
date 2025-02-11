@@ -1,7 +1,6 @@
-import React from 'react'
+import React from 'react';
+import styles from './TradeBankSection.module.scss';
 
-export const TradeBankSection = () => {
-  return (
-    <div>TradeBankSection</div>
-  )
+export default function TradeBankSection() {
+  return <section className={styles.root} />;
 }
