@@ -14,6 +14,13 @@ import './style.css';
 const SliderSection = () => {
   return (
     <section className={styles.root}>
+      <Image
+        src={'/images/greenBottom.png'}
+        width={1440}
+        height={70}
+        alt=''
+        className={styles.greenBottom}
+      />
       <div className={styles.text}>
         <h2>The Constitution of Zorg</h2>
         <h1>Ratified by the Supreme Council in the Galactic Year 42.0</h1>

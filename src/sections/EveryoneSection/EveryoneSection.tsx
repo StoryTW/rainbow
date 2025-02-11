@@ -5,6 +5,13 @@ import Image from 'next/image';
 const EveryoneSection = () => {
   return (
     <section className={styles.root}>
+      <Image
+        src={'/images/everyBottom.png'}
+        width={1440}
+        height={70}
+        alt=''
+        className={styles.everyBottom}
+      />
       <Image src={'/images/carts.png'} width={1642} height={334} alt='' className={styles.carts} />
       <div className={styles.content}>
         <Image
