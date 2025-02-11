@@ -1,0 +1,171 @@
+.root {
+  background: var(--purple);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--white);
+  text-align: center;
+  padding-bottom: 314px;
+  position: relative;
+  z-index: 10;
+
+  .bottomPurpleElement {
+    position: absolute;
+    bottom: -30px;
+    z-index: -1;
+    width: 100%;
+  }
+
+  @include respond(tablet) {
+    padding: 0 50px;
+    padding-bottom: 314px;
+  }
+
+  .greenElLeft {
+    position: absolute;
+    left: 10px;
+    top: -20px;
+
+    @include respond(tablet) {
+      scale: 0.5;
+    }
+
+    @include respond(laptopB) {
+      left: -100px;
+    }
+  }
+
+  .greenElRight {
+    position: absolute;
+    right: 0;
+    top: 20px;
+
+    @include respond(tablet) {
+      scale: 0.5;
+    }
+
+    @include respond(laptopB) {
+      right: -100px;
+    }
+  }
+
+  .monsterRight {
+    position: absolute;
+    right: 0;
+    top: 300px;
+    @include respond(tablet) {
+      scale: 0.5;
+    }
+    @include respond(laptopB) {
+      right: -100px;
+    }
+
+    @include respond(tabletSM) {
+      top: 250px;
+    }
+  }
+
+  .monsterLeft {
+    position: absolute;
+    left: 0;
+    top: 650px;
+
+    @include respond(laptopB) {
+      left: -100px;
+    }
+
+    @include respond(tablet) {
+      scale: 0.5;
+    }
+
+    @include respond(tabletSM) {
+      top: auto;
+      bottom: 0;
+    }
+  }
+
+  .figureLeft {
+    position: absolute;
+    left: 0;
+    top: 380px;
+    @include respond(tablet) {
+      scale: 0.5;
+      left: -100px;
+    }
+  }
+
+  .figureRight {
+    position: absolute;
+    right: 30px;
+    bottom: -20px;
+    @include respond(tablet) {
+      scale: 0.5;
+      bottom: 100px;
+    }
+  }
+
+  .topText {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 24px;
+    z-index: 1;
+
+    h2 {
+      font-weight: 700;
+      font-size: 24px;
+      letter-spacing: 4.25px;
+      opacity: 0.5;
+      text-transform: uppercase;
+      margin-top: 24px;
+
+      @include respond(mobile360) {
+        font-size: 18px;
+      }
+    }
+
+    h1 {
+      font-size: 64px;
+      font-weight: 900;
+      letter-spacing: -0.5;
+      max-width: 1030px;
+      text-transform: uppercase;
+
+      @include respond(tablet) {
+        font-size: 48px;
+      }
+      @include respond(mobile360) {
+        font-size: 36px;
+      }
+    }
+  }
+
+  .centerText {
+    margin-top: 140px;
+    max-width: 985px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    z-index: 1;
+
+    h1 {
+      font-size: 64px;
+      font-weight: 900;
+      text-transform: uppercase;
+      @include respond(tablet) {
+        font-size: 48px;
+      }
+      @include respond(mobile360) {
+        font-size: 36px;
+      }
+    }
+    p {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+      @include respond(mobile360) {
+        font-size: 24px;
+      }
+    }
+  }
+}

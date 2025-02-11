@@ -1,0 +1,95 @@
+.root {
+  background: var(--green-light);
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 96px;
+    max-width: 1200px;
+
+    h2 {
+      font-weight: 700;
+      font-size: 24px;
+      letter-spacing: 4.25px;
+      color: var(--green);
+      opacity: 0.5;
+      text-transform: uppercase;
+
+      @include respond(mobile360) {
+        font-size: 18px;
+      }
+    }
+
+    h1 {
+      font-size: 64px;
+      font-weight: 900;
+      letter-spacing: -0.5;
+      text-transform: uppercase;
+      color: var(--green);
+
+      @include respond(tablet) {
+        font-size: 48px;
+      }
+      @include respond(mobile360) {
+        font-size: 36px;
+      }
+    }
+  }
+
+  .slider {
+    max-width: 1131px;
+
+    width: 100%;
+  }
+  .slide {
+    color: var(--green);
+    h2 {
+      margin-top: 36px;
+      font-weight: 700;
+      font-size: 24px;
+      letter-spacing: 4.25px;
+      color: var(--green);
+      opacity: 0.5;
+      text-transform: uppercase;
+
+      @include respond(mobile360) {
+        font-size: 18px;
+      }
+    }
+    h1 {
+      margin-top: 12px;
+      font-size: 64px;
+      font-weight: 900;
+      letter-spacing: -0.5;
+      text-transform: uppercase;
+      color: var(--green);
+
+      @include respond(tablet) {
+        font-size: 48px;
+      }
+      @include respond(mobile360) {
+        font-size: 36px;
+      }
+    }
+    .description {
+      margin-top: 32px;
+    }
+    p {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+      @include respond(mobile360) {
+        font-size: 24px;
+      }
+    }
+  }
+}
