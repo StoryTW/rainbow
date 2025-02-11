@@ -1,0 +1,17 @@
+.root {
+  background: url('/images/bg/bank.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 1080px;
+  width: 100vw;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+  bottom: -80px;
+
+  @include respond(laptopL) {
+    height: 810px;
+    bottom: -40px;
+  }
+}

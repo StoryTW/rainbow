@@ -1,0 +1,48 @@
+.root {
+  background: url('/images/bg/bg_motivation.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 1453px;
+  width: 100vw;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+  bottom: -120px;
+
+  @include respond(laptopL) {
+    height: 1253px;
+    bottom: -70px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 48px;
+
+  @include respond(laptopL) {
+    padding: 24px 16px;
+  }
+
+  @include respond(tabletL) {
+    padding: 64px 16px;
+  }
+}
+
+.title {
+  @include CreatoDisplay_24_500;
+  font-weight: 700;
+  color: #1d4419;
+  margin-bottom: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.5;
+  letter-spacing: 6px;
+  padding-top: 120px;
+
+  @include respond(laptopL) {
+    padding-top: 64px;
+  }
+}
