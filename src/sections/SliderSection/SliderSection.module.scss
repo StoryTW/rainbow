@@ -30,7 +30,7 @@
       opacity: 0.5;
       text-transform: uppercase;
 
-      @include respond(mobile360) {
+      @include respond(mobileL) {
         font-size: 18px;
       }
     }
@@ -43,10 +43,11 @@
       color: var(--green);
 
       @include respond(tablet) {
-        font-size: 48px;
-      }
-      @include respond(mobile360) {
         font-size: 36px;
+      }
+
+      @include respond(mobileL) {
+        font-size: 24px;
       }
     }
   }
@@ -67,7 +68,7 @@
       opacity: 0.5;
       text-transform: uppercase;
 
-      @include respond(mobile360) {
+      @include respond(mobileL) {
         font-size: 18px;
       }
     }
@@ -79,11 +80,12 @@
       text-transform: uppercase;
       color: var(--green);
 
-      @include respond(tablet) {
-        font-size: 48px;
-      }
-      @include respond(mobile360) {
+      @include respond(tabletL) {
         font-size: 36px;
+      }
+
+      @include respond(mobileL) {
+        font-size: 28px;
       }
     }
     .description {
@@ -93,7 +95,8 @@
       font-weight: 700;
       font-size: 32px;
       line-height: 40px;
-      @include respond(mobile360) {
+
+      @include respond(mobileL) {
         font-size: 24px;
       }
     }
