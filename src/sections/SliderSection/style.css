@@ -8,3 +8,9 @@
   width: 100px;
   border-radius: 12px;
 }
+
+.swiper-pagination {
+  @media only screen and (max-width: 475px) {
+    bottom: 200px !important;
+  }
+}
