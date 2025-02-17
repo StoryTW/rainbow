@@ -67,6 +67,7 @@
       color: var(--green);
       opacity: 0.5;
       text-transform: uppercase;
+      padding: 0px 16px;
 
       @include respond(mobileL) {
         font-size: 18px;

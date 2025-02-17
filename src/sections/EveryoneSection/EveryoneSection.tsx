@@ -12,7 +12,7 @@ const EveryoneSection = () => {
         alt=''
         className={styles.everyBottom}
       />
-      <Image src={'/images/carts2.png'} width={1642} height={334} alt='' className={styles.carts} />
+      <Image src={'/images/carts3.svg'} width={1642} height={334} alt='' className={styles.carts} />
       <div className={styles.content}>
         <Image
           src={'/images/leftElEveryone.png'}
@@ -32,8 +32,7 @@ const EveryoneSection = () => {
         <div className={styles.innerContent}>
           <Image src={'/images/personEveryone.svg'} width={200} height={134} alt='' />
           <p>
-            You're required by the law of our country to have this! <br />
-            Everyone knows what it is, so there's no reason to explain it.
+            I'll probably have an edit for the Zorgus section, something like "Stay Tuned! Mint your Zorgus Passport soon!
           </p>
         </div>
         <h2>Mint your intergalactic passport here</h2>

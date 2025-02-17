@@ -6,28 +6,28 @@ const WelcomZordSection = () => {
   return (
     <section className={styles.root}>
       <Image
-        src={'/images/greenElLeft.png'}
+        src={'/images/greenElLeft.svg'}
         width={249}
         height={250}
         alt=''
         className={styles.greenElLeft}
       />
       <Image
-        src={'/images/greenElRight.png'}
+        src={'/images/greenElRight.svg'}
         width={213}
         height={215}
         alt=''
         className={styles.greenElRight}
       />
       <Image
-        src={'/images/monsterRight.png'}
+        src={'/images/monsterRight.svg'}
         width={305}
         height={305}
         alt=''
         className={styles.monsterRight}
       />
       <Image
-        src={'/images/monsterLeft.png'}
+        src={'/images/monsterLeft.svg'}
         width={387}
         height={387}
         alt=''
