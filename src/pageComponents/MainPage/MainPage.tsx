@@ -6,6 +6,7 @@ import styles from './MainPage.module.scss';
 import SliderSection from '@/sections/SliderSection/SliderSection';
 import EveryoneSection from '@/sections/EveryoneSection/EveryoneSection';
 import dynamic from 'next/dynamic';
+
 const TradeBankSection = dynamic(() => import('@/sections/TradeBankSection/TradeBankSection'));
 const WhyZorgSection = dynamic(() => import('@/sections/WhyZorgSection/WhyZorgSection'));
 const MotivationSection = dynamic(() => import('@/sections/MotivationSection/MotivationSection'));

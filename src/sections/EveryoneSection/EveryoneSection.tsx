@@ -12,7 +12,7 @@ const EveryoneSection = () => {
         alt=''
         className={styles.everyBottom}
       />
-      <Image src={'/images/carts.png'} width={1642} height={334} alt='' className={styles.carts} />
+      <Image src={'/images/carts2.png'} width={1642} height={334} alt='' className={styles.carts} />
       <div className={styles.content}>
         <Image
           src={'/images/leftElEveryone.png'}
@@ -30,7 +30,7 @@ const EveryoneSection = () => {
         />
         <h1>Everyone needs ZORGUS</h1>
         <div className={styles.innerContent}>
-          <Image src={'/images/personEveryone.png'} width={200} height={134} alt='' />
+          <Image src={'/images/personEveryone.svg'} width={200} height={134} alt='' />
           <p>
             You're required by the law of our country to have this! <br />
             Everyone knows what it is, so there's no reason to explain it.
