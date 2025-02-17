@@ -1,6 +1,6 @@
 export const sliderData = [
   {
-    img: '/images/slider/кружка.png',
+    img: '/images/slider/slide1.svg',
     subtitle: 'ARTICLE I',
     title: 'The Principle of Expression',
     description:
@@ -9,7 +9,7 @@ export const sliderData = [
       'Respect for diverse forms of expression is paramount; violations are subject to civic correction.',
   },
   {
-    img: '/images/slider/greenFlower.png',
+    img: '/images/slider/slide2.svg',
     subtitle: 'ARTICLE II',
     title: 'The Right to Trade',
     description:
@@ -18,7 +18,7 @@ export const sliderData = [
       'Items of significance include: interstellar artifacts, ancient Earth relics (notably 2002 Honda Civics), and rare cosmic materials.',
   },
   {
-    img: '/images/slider/purpleFlower.png',
+    img: '/images/slider/slide3.svg',
     subtitle: 'ARTICLE III',
     title: 'The Principle of Expression',
     description:
@@ -27,7 +27,7 @@ export const sliderData = [
       'Leadership roles are rotated every 3.14 Zorgian cycles to ensure dynamic governance and prevent stagnation.',
   },
   {
-    img: '/images/slider/blueFlower.png',
+    img: '/images/slider/slide4.svg',
     subtitle: 'ARTICLE IV',
     title: 'The Principle of Expression',
     description:
@@ -36,7 +36,7 @@ export const sliderData = [
       'Economic stability is maintained through adaptive market policies responsive to societal needs.',
   },
   {
-    img: '/images/slider/redFlower.png',
+    img: '/images/slider/slide5.svg',
     subtitle: 'ARTICLE V',
     title: 'The Principle of Expression',
     description:
