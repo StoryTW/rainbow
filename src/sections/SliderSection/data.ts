@@ -40,11 +40,11 @@ export const sliderData = [
     subtitle: 'ARTICLE V',
     title: 'The Principle of Expression',
     description:
-      'Slime Punks champion environmental resilience, often organizing cultural gatherings to celebrate Zorg’s heritage.',
+      'Slime Punks uphold environmental resilience through cultural heritage.',
     description2:
-      'Crypto Crustaceans advocate for decentralized systems, fostering innovation in personal and communal spheres.',
+      'Crypto Crustaceans advance decentralization and innovation.',
     description3:
-      'Intergalactic Boomers preserve historical knowledge, trading in relics that reflect our rich past.',
+      'Zorgian Zen Masters cultivate cosmic harmony and enlightenment.',
     description4:
       'Zorgian Zen Masters pursue spiritual enlightenment, emphasizing harmony with our cosmic environment.',
   },
