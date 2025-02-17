@@ -32,10 +32,12 @@ const EveryoneSection = () => {
         <div className={styles.innerContent}>
           <Image src={'/images/personEveryone.svg'} width={200} height={134} alt='' />
           <p>
-            I'll probably have an edit for the Zorgus section, something like "Stay Tuned! Mint your Zorgus Passport soon!
+            You're required by the law of our country to have this!
+            <br />
+            Everyone knows what it is, so there's no reason to explain it.
           </p>
         </div>
-        <h2>Mint your intergalactic passport here</h2>
+        <h2>Stay Tuned! Mint your Zorgus Passport soon!</h2>
       </div>
     </section>
   );
