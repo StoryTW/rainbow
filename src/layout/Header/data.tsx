@@ -11,11 +11,11 @@ type TSocials = {
 export const SOCIALS: TSocials[] = [
   {
     icon: <IconTelegram />,
-    href: '/',
+    href: 'https://t.me/ZORGNATION',
   },
   {
     icon: <IconTwitter />,
-    href: '/',
+    href: 'https://x.com/NationOfZorg',
   },
   {
     icon: <IconRow />,
